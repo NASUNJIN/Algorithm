@@ -34,8 +34,6 @@ def solution(fees, records):
     if value != -1 : # 정산 안한 차량
       car[key] = car[key] + ((23 * 60 + 59) - in_dic[key])
   
-  print(car)
-  
   # 요금 계산
   car_fee = []
   for key, value in car.items():
